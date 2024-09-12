@@ -2,7 +2,7 @@
 name: Testing
 
 on:
-  status
+  deployment_status
 
 jobs:
   deploy:
