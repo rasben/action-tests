@@ -15,4 +15,3 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: |
           echo "$GITHUB_CONTEXT";
-          exit 1;
