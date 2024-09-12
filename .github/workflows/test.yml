@@ -2,9 +2,7 @@
 name: Testing
 
 on:
-  status:
-  push:
-    branches: [main]
+  status
 
 jobs:
   deploy:
